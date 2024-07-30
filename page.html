@@ -18,192 +18,465 @@
           <a href="#" id="logo">NorthStar</a>
           <nav class="navbar-wrapper">
             <ul>
-              <li><a href="#" onclick="showSection('home')">HOME</a></li>
-              <li><a href="#" onclick="showSection('about')">ABOUT</a></li>
+              <li><a href="#home" onclick="showSection('home')">HOME</a></li>
               <li>
-                <a href="#" onclick="showSection('contract')">CONTRACT US</a>
+                <a href="#about" onclick="showSection('about')">ABOUT</a>
+              </li>
+
+              <li>
+                <a href="#contact" onclick="showSection('contact')"
+                  >CONTACT US</a
+                >
               </li>
             </ul>
           </nav>
           <div class="nav-right">
             <box-icon name="user" class="icons"></box-icon>
-            <box-icon name="shopping-bag" class="icons"></box-icon>
+            <box-icon name="shopping-bag" class="icons" ><a href="#shopping-cart" onclick="showSection('shopping-cart')"></a></box-icon>
             <box-icon name="menu" class="icons"></box-icon>
           </div>
         </div>
       </header>
-      <main id="main">
-        <div class="hero">
-          <!-- <div class="index_btn">
-          <a href="#" class="btn">Shop now</a>
-        </div> -->
-        </div>
-        <!---->
-        <div id="new">
-          <div class="title">
-            <h1>Discover NEW Arrivals</h1>
-            <h3>Recently added shirts</h3>
+
+
+        <section id="home" class="section active">
+          <div id="main_home">
+            <div class="hero">
+              <!-- <div class="index_btn">
+              <a href="#" class="btn">Shop now</a>
+            </div> -->
+            </div>
+            <!---->
+            <div id="new">
+              <div class="title">
+                <h1>Discover NEW Arrivals</h1>
+                <p>Recently added shirts</p>
+              </div>
+              <div class="products-container">
+                <div class="products">
+                  <img src="/IMG/1.png" alt="" />
+                  <h4 class="products_name">Plain White Shirt</h4>
+                  <span class="price">$29.00</span>
+                </div>
+                <div class="products">
+                  <img src="/IMG/2.png" alt="" />
+                  <h4 class="products_name">Denim Jacket</h4>
+                  <span class="price">$69.00</span>
+                </div>
+                <div class="products">
+                  <img src="/IMG/3.png" alt="" />
+                  <h4 class="products_name">Black Polo Shirt</h4>
+                  <span class="price">$49.00</span>
+                </div>
+                <div class="products">
+                  <img src="/IMG/4.png" alt="" />
+                  <h4 class="products_name">Blue Sweatshirt</h4>
+                  <span class="price">$79.00</span>
+                </div>
+                <div class="products">
+                  <img src="/IMG/5.png" alt="" />
+                  <h4 class="products_name">Blue Plain Shirt</h4>
+                  <span class="price">$49.00</span>
+                </div>
+                <div class="products">
+                  <img src="/IMG/6.png" alt="" />
+                  <h4 class="products_name">Dark Blue Shirt</h4>
+                  <span class="price">$89.00</span>
+                </div>
+                <div class="products">
+                  <img src="/IMG/7.png" alt="" />
+                  <h4 class="products_name">Outcast T Shirt</h4>
+                  <span class="price">$19.00</span>
+                </div>
+                <div class="products">
+                  <img src="/IMG/8.png" alt="" />
+                  <h4 class="products_name">Polo Plain Shirt</h4>
+                  <span class="price">$29.00</span>
+                </div>
+              </div>
+            </div>
+            <!---->
+            <div id="benefit">
+              <nav>
+                <div class="benefit_nav">
+                  <div class="icon_benefit">
+                    <img src="/IMG/icon/icon_sh.png" alt="" />
+                  </div>
+                  <div class="tilte_benefit">
+                    <span>Free Shippings</span><br />
+                    <p>
+                      Enjoy free shipping on all <br />
+                      Sorder about 100$
+                    </p>
+                  </div>
+                </div>
+                <div class="benefit_nav">
+                  <div class="icon_benefit">
+                    <img src="/IMG/icon/icon_sp.png" alt="" />
+                  </div>
+                  <div class="tilte_benefit">
+                    <span>Support 24/7</span><br />
+                    <p>Our support team is there <br />to help you for queries</p>
+                  </div>
+                </div>
+                <div class="benefit_nav">
+                  <div class="icon_benefit">
+                    <img src="/IMG/icon/icon_rt.png" alt="" />
+                  </div>
+                  <div class="title_benefit">
+                    <span>30 Days return</span><br />
+                    <p>
+                      Simply return it within 30 <br />
+                      days for an exchange.
+                    </p>
+                  </div>
+                </div>
+                <div class="benefit_nav">
+                  <div class="icon_benefit">
+                    <img src="/IMG/icon/icon_p.png" alt="" />
+                  </div>
+                  <div class="tilte_benefit">
+                    <span>100% Payment Secure</span><br />
+                    <p>
+                      Our payments are secured <br />
+                      with 256 bit encryption
+                    </p>
+                    <a href="" class="btn">buy now</a>
+                  </div>
+                </div>
+              </nav>
+            </div>
+            <!---->
+            <div id="promo">
+              <div class="promo_box">
+                <div class="title_promo">
+                  <h2>peace of mind</h2>
+                  <p>
+                    A one-stop platform for all your fashion needs, <br />
+                    hassle-free. Buy with a peace of mind.
+                  </p>
+                </div>
+                <button type="button">Buy now</button>
+              </div>
+              <div class="promo_box">
+                <div class="title_promo">
+                  <h2>Buy 2 Get 1 Free</h2>
+                  <p>
+                    End of season sale. Buy any 2 items of your choice <br />
+                    and get 1 free.
+                  </p>
+                </div>
+                <button type="button">Buy now</button>
+              </div>
+            </div>
+            <!---->
+            <div id="selling">
+              <div class="title">
+                <h1>Top Sellers</h1>
+                <p>Browse our top-selling products</p>
+              </div>
+              <div class="products-sell-container">
+                <div class="products_sell">
+                  <img src="/IMG/p1.png" alt="" />
+                  <h4 class="products_name">Gray Polo Shirt</h4>
+                  <span class="price">$49.00</span>
+                </div>
+                <div class="products_sell">
+                  <img src="/IMG/p2.png" alt="" />
+                  <h4 class="products_name">Gray Polo Shirt</h4>
+                  <span class="price">$49.00</span>
+                </div>
+                <div class="products_sell">
+                  <img src="/IMG/p3.png" alt="" />
+                  <h4 class="products_name">Gray Polo Shirt</h4>
+                  <span class="price">$49.00</span>
+                </div>
+                <div class="products_sell">
+                  <img src="/IMG/p4.png" alt="" />
+                  <h4 class="products_name">Gray Polo Shirt</h4>
+                  <span class="price">$49.00</span>
+                </div>
+              </div>
+              <div class="sell-btn">
+                <button type="button">Shop Now</button>
+              </div>
+            </div>
           </div>
-          <div class="products-container">
-            <div class="products">
-              <img src="/IMG/1.png" alt="" />
-              <h4 class="products_name">Plain White Shirt</h4>
-              <span class="price">$29.00</span>
+        </section>
+
+        <section id="about" class="section">
+          <div id="main_about">
+            <div class="hero-about">
+              <span>ABOUT NORTHSTAR</span>
             </div>
-            <div class="products">
-              <img src="/IMG/2.png" alt="" />
-              <h4 class="products_name">Denim Jacket</h4>
-              <span class="price">$69.00</span>
+            <div class="hero-about_bottom">
+              <div class="bottom">
+                <img src="/IMG/ab_2.png" alt="">
+                <button href="#woman" onclick="showSection('woman')">Buy Now</button>
+              </div>
+              <div class="bottom">
+                <img src="/IMG/ab_1.png" alt="">
+                <button href="man" onclick="showSection('man')">Buy Now</button>
+              </div>
             </div>
-            <div class="products">
-              <img src="/IMG/3.png" alt="" />
-              <h4 class="products_name">Black Polo Shirt</h4>
-              <span class="price">$49.00</span>
+
+            <div class="founders">
+              <h1 class="title">
+                The Founders
+              </h1>
+              <div class="founders_info">
+                <div class="info_box">
+                  <img src="/IMG/po1.png" alt="">
+                  <span class="name_fo">HM Jawad</span>
+                </div>
+                <div class="info_box">
+                  <img src="/IMG/po2.png" alt="">
+                  <span class="name_fo">Furqan Abid</span>
+                </div>
+                <div class="info_box">
+                  <img src="/IMG/po3.png" alt="">
+                  <span class="name_fo">Abdullah Ah</span>
+                </div>
+                <div class="info_box">
+                  <img src="/IMG/po4.png" alt="">
+                  <span class="name_fo">Abrar Khan</span>
+                </div>
+              </div>
             </div>
-            <div class="products">
-              <img src="/IMG/4.png" alt="" />
-              <h4 class="products_name">Blue Sweatshirt</h4>
-              <span class="price">$79.00</span>
-            </div>
-            <div class="products">
-              <img src="/IMG/5.png" alt="" />
-              <h4 class="products_name">Blue Plain Shirt</h4>
-              <span class="price">$49.00</span>
-            </div>
-            <div class="products">
-              <img src="/IMG/6.png" alt="" />
-              <h4 class="products_name">Dark Blue Shirt</h4>
-              <span class="price">$89.00</span>
-            </div>
-            <div class="products">
-              <img src="/IMG/7.png" alt="" />
-              <h4 class="products_name">Outcast T Shirt</h4>
-              <span class="price">$19.00</span>
-            </div>
-            <div class="products">
-              <img src="/IMG/8.png" alt="" />
-              <h4 class="products_name">Polo Plain Shirt</h4>
-              <span class="price">$29.00</span>
+            <div class="testimonials">
+              <h1 class="title">
+                Testimonials
+              </h1>
+              <div class="te_container">
+                <div class="te_box">
+                  <img src="/IMG/avt_circle-1.png" alt="">
+                  <div>                 <p>
+                    <img src="/IMG/icon/icon_000.png" alt="">
+                    <p>Once we ordered some accessories items and we got the<br>
+                      products delivered in our doorstep, the customer support was <br>
+                      super helpful and they answered all my queries.</p>
+                      <span>Stacy</span>
+                  </p></div>
+                </div>
+                <div class="te_box">
+                  <img src="/IMG/avt_circle-2.png" alt="">
+                  <div>                <p>
+                    <img src="/IMG/icon/icon_000.png" alt="">
+                    <p>I ordered 5 shirts from them and received them in no time.<br>
+                      The customer support was awesome!</p>
+                      <span>Tiffany</span>
+                      
+                  </p></div>
+                </div>
+                <div class="te_box">
+                  <img src="/IMG/avt_circle-3.png" alt="">
+                  <div>                <p>
+                    <img src="/IMG/icon/icon_000.png" alt="">
+                    <p>I got a wrong shirt so I contacted them and they happily <br>
+                      offered me a refund. I will surely shop from them again.</p>
+                      <span>James</span>
+                  </p></div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-        <!---->
-        <div id="benefit">
-          <nav>
-            <div class="benefit_nav">
-              <div class="icon_benefit">
-                <img src="/IMG/icon/icon_sh.png" alt="" />
+        </section>
+
+        <section id="contact" class="section">
+          <div id="contact_main">
+            <div class="hero_contact"><span>CONTACT US</span></div>
+            <div class="contact_container">
+              <div class="container-title">
+                <h1>We would love to hear from you</h1>
+                <p>If you have any query or any type of suggestion, you can contact us here. We would love to hear form you</p>
               </div>
-              <div class="tilte_benefit">
-                <span>Free Shippings</span><br />
-                <p>
-                  Enjoy free shipping on all <br />
-                  Sorder about 100$
+              <div class="visit-us">
+                <h2>Visit Us</h2>
+                <p>UET Lahore, Punjab, Pakistan <br>
+                  Phone: +923039898987
                 </p>
               </div>
-            </div>
-            <div class="benefit_nav">
-              <div class="icon_benefit">
-                <img src="/IMG/icon/icon_sp.png" alt="" />
+              <div class="form-input">
+                <div class="input-row">
+                  <div class="inputBox">
+                    <span>Name</span>
+                    <input type="name" placeholder="">
+                  </div>
+                  <div class="inputBox">
+                    <span>Email</span>
+                    <input type="email" placeholder="">
+                  </div>
+                </div>
+                <div class="input-row">
+                  <div class="inputBox">
+                    <span>Message</span>
+                    <textarea rows="5" placeholder=""></textarea>
+                  </div>
+                </div>
+                <button href="#contact_sent" onclick="showSection('contact_sent')" class="btn-contact">Send message</button>
               </div>
-              <div class="tilte_benefit">
-                <span>Support 24/7</span><br />
-                <p>Our support team is there <br />to help you for queries</p>
+              <div class="get-in">
+                <h2>Get In Touch</h2>
+                <p>you can get in touch with us on this provided email.</p>
+                <span>Email: hmjawad098@gmail.com</span>
               </div>
-            </div>
-            <div class="benefit_nav">
-              <div class="icon_benefit">
-                <img src="/IMG/icon/icon_rt.png" alt="" />
+          </main>
+        </section>
+
+        <section id="contact_sent" class="section">
+          <div id="contact_sent_main">
+            <div class="contact_container-sent"> 
+              <div class="form-input_sent">
+                <h1>Message sent. We’ll contact you soon.</h1>
               </div>
-              <div class="title_benefit">
-                <span>30 Days return</span><br />
-                <p>
-                  Simply return it within 30 <br />
-                  days for an exchange.
+              <div class="visit-us_sent">
+                <h2>Visit Us</h2>
+                <p>UET Lahore, Punjab, Pakistan <br>
+                  Phone: +923039898987
                 </p>
               </div>
-            </div>
-            <div class="benefit_nav">
-              <div class="icon_benefit">
-                <img src="/IMG/icon/icon_p.png" alt="" />
-              </div>
-              <div class="tilte_benefit">
-                <span>100% Payment Secure</span><br />
-                <p>
-                  Our payments are secured <br />
-                  with 256 bit encryption
-                </p>
-                <a href="" class="btn">buy now</a>
+              <div class="get-in_sent">
+                <h2>Get In Touch</h2>
+                <p>you can get in touch with us on this provided email.</p>
+                <span>Email: hmjawad098@gmail.com</span>
               </div>
             </div>
-          </nav>
-        </div>
-        <!---->
-        <div id="promo">
-          <div class="promo_box">
-            <div class="title_promo">
-              <h2>peace of mind</h2>
-              <p>
-                A one-stop platform for all your fashion needs, <br />
-                hassle-free. Buy with a peace of mind.
+            <button href="#home" onclick="showSection('home')" class="btn-contact">Back</button>
+          </div>
+        </section>
+
+        <section id="woman" class="section">
+          <div class="content_woman-product">
+            <div class="products_img">
+              <img src="/IMG/woman.png" alt="">
+              <div class="products_img-mini">
+                <div class="img_mini">1</div>
+                <div class="img_mini">2</div>
+                <div class="img_mini">3</div>
+                <div class="img_mini">5</div>
+              </div>
+            </div>
+            <div class="products_info">
+              <h1>HOME/SHOP/WOMAN/<span>SHOP</span></h1>
+              <div class="product_title">
+                <h2>Plain White Shirt</h2>
+                <div class="rating">
+                  <span>★★★★★</span>
+                  <span>(15)</span>
+                </div>
+                <p class="price-sale">$69.00</p><del>$59.00</del>
+                <p>A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.</p>   
+            
+                <div class="size">
+                  <select>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>
+                  </select>
+                </div>
+                <button class="btn-add_cart">ADD TO CART</button>
+                <p class="category">Category: Women, Polo, Casual</p>
+                <p class="tags">Tags: Modern, Design, cotton</p>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <div class="btn_tille">
+              <div class="box_tilte">description</div>
+              <div class="box_tilte">review</div>
+            </div>
+            <div class="des_text">
+              <p>A key objective is engaging digital marketing customers and allowing them to interact with the brand through servicing and delivery of digital media. Information is easy to access at a fast rate through the use of digital communications. <br>
+                Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. 
               </p>
             </div>
-            <button type="button">Buy now</button>
           </div>
-          <div class="promo_box">
-            <div class="title_promo">
-              <h2>Buy 2 Get 1 Free</h2>
-              <p>
-                End of season sale. Buy any 2 items of your choice <br />
-                and get 1 free.
+        </section>
+
+        <section id="man" class="section">
+          <div class="content_man-product">
+            <div class="products_img">
+              <img src="/IMG/woman.png" alt="">
+              <div class="products_img-mini">
+                <div class="img_mini">1</div>
+                <div class="img_mini">2</div>
+                <div class="img_mini">3</div>
+                <div class="img_mini">5</div>
+              </div>
+            </div>
+            <div class="products_info">
+              <h1>HOME/SHOP/WOMAN/<span>SHOP</span></h1>
+              <div class="product_title">
+                <h2>Plain White Shirt</h2>
+                <div class="rating">
+                  <span>★★★★★</span>
+                  <span>(15)</span>
+                </div>
+                <p class="price-sale">$69.00</p><del>$59.00</del>
+                <p>A classic t-shirt never goes out of style. This is our most premium collection of shirt. This plain white shirt is made up of pure cotton and has a premium finish.</p>   
+            
+                <div class="size">
+                  <select>
+                    <option value="s">S</option>
+                    <option value="m">M</option>
+                    <option value="l">L</option>
+                    <option value="xl">XL</option>   
+                  </select>
+                </div>
+                <button class="btn-add_cart">ADD TO CART</button>
+                <p class="category">Category: Women, Polo, Casual</p>
+                <p class="tags">Tags: Modern, Design, cotton</p>
+              </div>
+            </div>
+          </div>
+          <div class="description">
+            <div class="btn_tille">
+              <div class="box_tilte">description</div>
+              <div class="box_tilte">review</div>
+            </div>
+            <div class="des_text">
+              <p>A key objective is engaging digital marketing customers and allowing them to interact with the brand through servicing and delivery of digital media. Information is easy to access at a fast rate through the use of digital communications. <br>
+                Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. 
               </p>
             </div>
-            <button type="button">Buy now</button>
           </div>
-        </div>
-        <!---->
-        <div id="selling">
-          <div class="title">
-            <h1>Top Sellers</h1>
-            <h3>Browse our top-selling products</h3>
+        </section>
+
+        <section id="shopping-cart" class="section">
+          <div>        
+            <table>
+              <thead>
+                  <tr>
+                      <th></th>
+                      <th>Sản phẩm</th>
+                      <th>Giá</th>
+                      <th>Số lượng</th>
+                      <th>Tổng</th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><button class="remove">X</button></td>
+                      <td>Áo sơ mi trắng trơn</td>
+                      <td>$59.00</td>
+                      <td><input type="number" value="1"></td>
+                      <td>$59.00</td>
+                  </tr>
+              </tbody>
+            </table>
           </div>
-          <div class="products-sell-container">
-            <div class="products_sell">
-              <img src="/IMG/p1.png" alt="" />
-              <h4 class="products_name">Gray Polo Shirt</h4>
-              <span class="price">$49.00</span>
-            </div>
-            <div class="products_sell">
-              <img src="/IMG/p2.png" alt="" />
-              <h4 class="products_name">Gray Polo Shirt</h4>
-              <span class="price">$49.00</span>
-            </div>
-            <div class="products_sell">
-              <img src="/IMG/p3.png" alt="" />
-              <h4 class="products_name">Gray Polo Shirt</h4>
-              <span class="price">$49.00</span>
-            </div>
-            <div class="products_sell">
-              <img src="/IMG/p4.png" alt="" />
-              <h4 class="products_name">Gray Polo Shirt</h4>
-              <span class="price">$49.00</span>
-            </div>
-          </div>
-          <div class="sell-btn">
-            <button type="button">Shop Now</button>
-          </div>
-        </div>
-      </main>
-      <!---->
+        </section>
+
       <footer id="footer">
         <div class="footer">
           <div class="top_footer">
             <div class="footer-box">
-              <span>Comany Info</span>
+              <span>Company Info</span>
               <ul>
                 <li>About Us</li>
                 <li>Last Posts</li>
-                <li>Contract Us</li>
+                <li>Contact Us</li>
                 <li>Shop</li>
               </ul>
             </div>
@@ -228,17 +501,17 @@
             </div>
             <div class="footer-box">
               <span>Get in the Know</span><br />
-              <input type="email" placeholder="email" />
+              <input type="email" placeholder="Enter email" />
             </div>
           </div>
           <div class="bottom_footer">
-            <div>
+            <div class="bottom_footer-left-container">
               <p>
                 © 2020 NorthStar eCommerce <br />Privacy Policy Terms &
                 Conditions
               </p>
             </div>
-            <div>
+            <div class="bottom_footer-right-container">
               <img src="/IMG/icon/pay1_visa.png" alt="" />
               <img src="/IMG/icon/pay_master.png" alt="" />
               <img src="/IMG/icon/pay_paypal.png" alt="" />
@@ -249,5 +522,6 @@
       </footer>
     </div>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="/JS/scripts.js"></script>
   </body>
 </html>
