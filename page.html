@@ -8,6 +8,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     />
     <link />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>NorthStar</title>
     <link rel="stylesheet" href="/CSS/page.css" />
   </head>
@@ -18,7 +19,7 @@
           <a href="#" id="logo">NorthStar</a>
           <nav class="navbar-wrapper">
             <ul>
-              <li><a href="#home" onclick="showSection('home')">HOME</a></li>
+              <li><a href="page.html#home" onclick="showSection('home')">HOME</a></li>
               <li>
                 <a href="#about" onclick="showSection('about')">ABOUT</a>
               </li>
@@ -29,11 +30,11 @@
                 >
               </li>
             </ul>
-          </nav>
+          </nav>  
           <div class="nav-right">
-            <box-icon name="user" class="icons"></box-icon>
-            <box-icon name="shopping-bag" class="icons" ><a href="#shopping-cart" onclick="showSection('shopping-cart')"></a></box-icon>
-            <box-icon name="menu" class="icons"></box-icon>
+            <i class='bx bx-user'></i>
+           <a href="/cart-post.html" onclick="showSection('cart-post')"><i class='bx bx-cart'></i></a>
+           <i class='bx bx-menu' ></i>
           </div>
         </div>
       </header>
@@ -395,7 +396,7 @@
         </section>
 
         <section id="man" class="section">
-          <div class="content_man-product">
+          <div class="content_woman-product">
             <div class="products_img">
               <img src="/IMG/woman.png" alt="">
               <div class="products_img-mini">
@@ -421,7 +422,7 @@
                     <option value="s">S</option>
                     <option value="m">M</option>
                     <option value="l">L</option>
-                    <option value="xl">XL</option>   
+                    <option value="xl">XL</option>
                   </select>
                 </div>
                 <button class="btn-add_cart">ADD TO CART</button>
@@ -440,9 +441,7 @@
                 Users with access to the Internet can use many digital mediums, such as Facebook, YouTube, Forums, and Email etc. Through Digital communications it creates a Multi-communication channel where information can be quickly exchanged around the world by anyone without any regard to whom they are.[28] Social segregation plays no part through social mediums due to lack of face to face communication and information being wide spread instead to a selective audience. 
               </p>
             </div>
-          </div>
         </section>
-
 
       <footer id="footer">
         <div class="footer">
