@@ -205,6 +205,9 @@ body {
   height: 210px;
   margin-left: 50px;
   margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #benefit nav {
   width: 100%;
@@ -214,9 +217,9 @@ body {
   align-items: center;
 }
 .benefit_nav {
-  margin: 0 30px;
   display: flex;
   padding: 0 10px;
+  margin: 0 auto;
 }
 .benefit_nav span {
   text-transform: uppercase;
@@ -825,7 +828,6 @@ table {
 td {
   padding: 10px;
   text-align: left;
-  border-bottom: 1px solid #ddd;
 }
 .order-summary {
   width: 1230px;
@@ -857,4 +859,22 @@ td {
 }
 #main-cart span {
   font-weight: 700;
+}
+#checkout-mess {
+  max-width: 1366px;
+  padding: 100px 280px;
+}
+.message {
+  width: 796px;
+  height: 250px;
+  background-color: rgba(214, 118, 60, 0.72);
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
