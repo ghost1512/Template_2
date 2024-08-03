@@ -66,7 +66,6 @@ section.active {
 
 #wrap {
   width: 1366px;
-  border: 1px solid black;
   margin: auto;
 }
 .wrap_section {
@@ -99,7 +98,7 @@ body {
   color: black;
 }
 .navbar-wrapper {
-  margin-left: -200px;
+  margin-left: -250px;
 }
 .navbar-wrapper ul {
   display: flex;
@@ -116,7 +115,7 @@ body {
 }
 
 .nav-right i {
-  font-size: 30px;
+  font-size: 25px;
   color: black;
 }
 
@@ -125,12 +124,42 @@ body {
 }
 
 .hero {
-  background: url(/IMG/Hero.png);
+  background: url(/IMG/hero-ng.png);
   width: 1366px;
   height: 648px;
   background-size: 100%;
   background-repeat: no-repeat;
 }
+
+.hero-title {
+  width: 492px;
+  height: 200px;
+  position: relative;
+  left: 770px;
+  top: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+.hero-title p {
+  color: #fbfbfb;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.hero_btn button {
+  border: 5px solid #ffffff;
+  color: #fbfbfb;
+  width: 175px;
+  height: 58px;
+  padding: 12px 20px;
+  gap: 10px;
+  text-transform: uppercase;
+  font-size: 21px;
+}
+
 #new {
   width: 1366px;
 }
@@ -162,6 +191,10 @@ body {
 .products img {
   height: 342px;
   width: 295px;
+}
+.products_name {
+  margin-bottom: 20px;
+  margin-top: 10px;
 }
 .products span {
   color: #024e82;
@@ -236,7 +269,6 @@ body {
 .products_sell {
   width: 315px;
   height: 432px;
-  align-items: center;
   text-align: center;
   margin-top: 20px;
 }
@@ -245,6 +277,7 @@ body {
   width: 295px;
 }
 .products_sell span {
+  margin: 20px auto;
   color: #024e82;
 }
 
@@ -577,17 +610,17 @@ body {
 .rating span {
   color: orange;
 }
-.price {
+.price-sale {
   display: flex;
   margin: 20px 0;
 }
-.price-sale {
+.price-sale_p {
   font-size: 24px;
   font-weight: bold;
   text-decoration: line-through;
   margin-right: 10px;
 }
-.price-sales {
+.price-sales_del {
   font-size: 24px;
   font-weight: bold;
   color: #024e82;
@@ -596,6 +629,10 @@ body {
   max-width: 210px;
   margin-top: 60px;
   margin-bottom: 20px;
+}
+#size option {
+  display: flex;
+  justify-content: space-between;
 }
 select {
   width: 100%;
