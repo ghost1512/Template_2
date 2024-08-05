@@ -124,7 +124,7 @@ body {
 }
 
 .hero {
-  background: url(IMG/hero-ng.png);
+  background: url(./IMG/hero-ng.png);
   width: 1366px;
   height: 648px;
   background-size: 100%;
