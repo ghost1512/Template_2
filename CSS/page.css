@@ -613,17 +613,17 @@ body {
 .rating span {
   color: orange;
 }
-.price-sale {
+.price {
   display: flex;
   margin: 20px 0;
 }
-.price-sale_p {
+.price-sale {
   font-size: 24px;
   font-weight: bold;
   text-decoration: line-through;
   margin-right: 10px;
 }
-.price-sales_del {
+.price-sales {
   font-size: 24px;
   font-weight: bold;
   color: #024e82;
