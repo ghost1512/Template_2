@@ -63,18 +63,17 @@ section {
 section.active {
   display: block;
 }
-
+body {
+  background: var(--bg);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+}
 #wrap {
   max-width: 1366px;
   margin: auto;
 }
 .wrap_section {
   margin: 0 50px;
-}
-body {
-  background: var(--bg);
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: black;
 }
 
 #header {
@@ -122,7 +121,7 @@ body {
 }
 
 .hero {
-  background: url('/IMG/Hero.png');
+  background: url("./IMG/Hero.png");
   width: 100%;
   height: 648px;
   background-size: 100%;
@@ -146,7 +145,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 0 50px;
-  gap:20px;
+  gap: 20px;
 }
 .products {
   height: 412px;
@@ -160,7 +159,7 @@ body {
 .products span {
   color: #024e82;
 }
-.products_name{
+.products_name {
   margin-bottom: 20px;
 }
 #benefit {
@@ -174,12 +173,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap:24px;
+  gap: 24px;
   padding: 0 10px;
 }
 .benefit_nav {
   display: flex;
-  gap:10px;
+  gap: 10px;
 }
 .benefit_nav span {
   text-transform: uppercase;
@@ -188,7 +187,7 @@ body {
 
 #promo {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   column-gap: 15px;
   padding: 0 75px;
@@ -223,7 +222,7 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 0 50px;
-  gap:20px;
+  gap: 20px;
 }
 .products_sell {
   height: 432px;
@@ -257,7 +256,6 @@ body {
 .top_footer {
   display: flex;
   justify-content: space-between;
-  /* width: 1266px; */
   margin-left: 50px;
   margin-right: 50px;
   gap: 10px;
@@ -298,13 +296,11 @@ body {
   width: 200px;
   display: flex;
 }
-
-/*------------------------*/
-#about{
+#about {
   max-width: 1366px;
 }
 .hero-about {
-  background: url('/IMG/top_ab.jpg');
+  background: url("./IMG/top_ab.jpg");
   width: 100%;
   height: 348px;
   position: static;
@@ -395,11 +391,11 @@ body {
   padding-top: 40px;
   margin-top: 40px;
 }
-#contract{
+#contract {
   max-width: 1366px;
 }
 .hero_contact {
-  background: url('/IMG/top_contract.jpg');
+  background: url("./IMG/top_contract.jpg");
   width: 100%;
   height: 348px;
   position: static;
@@ -816,12 +812,11 @@ td {
 #main-cart span {
   font-weight: 700;
 }
-#checkout-mess{
+#checkout-mess {
   max-width: 1366px;
   padding: 100px 280px;
-
 }
-.message{
+.message {
   width: 796px;
   height: 250px;
   background-color: rgba(214, 118, 60, 0.72);
@@ -830,14 +825,12 @@ td {
   font-weight: 700;
   line-height: 48px;
   text-align: center;
-  color:rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-
-/*-------------------*/
 .hero-title {
   width: 492px;
   height: 200px;
