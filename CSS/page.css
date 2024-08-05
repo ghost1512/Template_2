@@ -348,7 +348,7 @@ body {
   display: flex;
 }
 .hero-about {
-  background: url(/IMG/top_ab.jpg);
+  background: url(./IMG/top_ab.jpg);
   width: 1366px;
   height: 348px;
   position: static;
@@ -440,7 +440,7 @@ body {
   margin-top: 40px;
 }
 .hero_contact {
-  background: url(/IMG/top_contract.jpg);
+  background: url(./IMG/top_contract.jpg);
   width: 1366px;
   height: 348px;
   position: static;
